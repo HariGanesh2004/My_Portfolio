@@ -32,6 +32,7 @@
             </ul>
         </nav>
     </header>
+    <div class="mobile-nav-overlay"></div>
 
     <main>
         <section id="home" class="hero">
@@ -132,16 +133,20 @@
                         <div class="overlay-content">
                             <h3>My Portfolio</h3>
                             <p>Personal website showcasing my skills and projects.</p>
+<<<<<<< HEAD
                             <a href="https://github.com/HariGanesh2004/My_Portfolio.git" target="_blank" class="btn">View Project</a>
+=======
+                            <a href="https://github.com/HariGanesh2004/My_Portfolio.git"  target="_blank" class="btn">View Project</a>
+>>>>>>> 46f976b (My portfolio)
                         </div>
                     </div>
                 </div>
-                <div class="project-card" style="background-image: url('project3.jpg');">
+                <div class="project-card" style="background-image: url('project3.jpeg');">
                     <div class="project-overlay">
                         <div class="overlay-content">
-                            <h3>Project 3</h3>
-                            <p>Project description goes here.</p>
-                            <a href="#" class="btn">View Project</a>
+                            <h3>e-Health System</h3>
+                            <p>Currently on Development</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -177,6 +182,7 @@
             <a href="https://www.instagram.com/hari_prasath_ganesan?igsh=MWZ5dXB5aHZnMzZtMA==" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://www.linkedin.com/in/hariprasath-032g1971" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="https://wa.me/917397544879" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/HariGanesh2004" target="_blank"><i class="fab fa-github"></i></a>
         </div>
         
     </footer>
@@ -194,6 +200,11 @@
                 document.body.classList.add('show-main');
             }, 1200); // match CSS animation duration
         }, 900); // how long the photo stays centered before moving
+    });
+
+    // Always scroll to top on reload
+    window.addEventListener('beforeunload', function() {
+        window.scrollTo(0, 0);
     });
     </script>
 </body>
